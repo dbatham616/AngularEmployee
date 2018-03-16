@@ -1,0 +1,24 @@
+﻿<script src="https://dbatham616.sharepoint.com/sites/smalsus/Style%20Library/js/angular/services/jquery.min.js"></script>
+<script src="https://dbatham616.sharepoint.com/sites/smalsus/Style%20Library/js/angular/services/angular.min.js"></script>
+<script src="https://dbatham616.sharepoint.com/sites/smalsus/Style%20Library/js/angular/services/SharewebAngular.js"></script>
+
+<script src="https://dbatham616.sharepoint.com/sites/smalsus/Style%20Library/js/angular/services/SharewebService.js"></script>
+<script src="https://dbatham616.sharepoint.com/sites/smalsus/Style%20Library/js/angular/services/SharewebListService.js"></script>
+<script src="https://dbatham616.sharepoint.com/sites/smalsus/Style%20Library/js/angular/services/SharewebCommon.js"></script>
+<script src="https://dbatham616.sharepoint.com/sites/smalsus/Style%20Library/js/EmployeeDetails.js"></script>
+
+<div ng-app="app" ng-controller="EmployeeDetailsController">
+    <table id="Projects" cellspacing="0" width="100%">
+      
+        <tbody>
+            <tr ng-repeat="item in Employees">
+                <td align="center">{{item.Eid}}</td>
+                <td align="center">{{item.EmpName}}</td>
+                <td align="center">{{item.EmpAddress}}</td>
+				//github changes have done
+				//Done again
+            </tr>
+        </tbody>
+    </table>
+   
+</div>
